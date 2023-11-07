@@ -1,0 +1,14 @@
+---
+layout: main.njk
+---
+
+<article class="txt">
+  <header class="txtHeader">
+    <h1 class="txtTitle">{{ title }}</h1>
+    <time class="txtDate" datetime="{{ page.date }}">
+      {{ page.date | readableDate }}
+    </time>
+    <div class="txtAuthor">{{ author }}</div>
+  </header>
+  <div>{{ content | safe }}</div>
+</article>

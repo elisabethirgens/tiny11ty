@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A minimal Eleventy project example" />
+    <title>tiny11ty</title>
+  </head>
+
+  <body class="site">
+    <header class="siteHeader">
+      <h1 class="blogTitle">
+        <a href="{{ '/' | url }}">Tiny11ty</a>
+      </h1>
+    </header>
+
+    <main class="siteContent">
+      <div class="responsiveContentWrapper">
+        {{ content | safe }}
+      </div>
+    </main>
+
+    <footer class="siteFooter">
+      <div class="responsiveContentWrapper">
+        A minimal Eleventy project example
+      </div>
+    </footer>
+  </body>
+</html>

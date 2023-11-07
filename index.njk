@@ -1,0 +1,16 @@
+---
+layout: main.njk
+---
+
+<ol class="list">
+  {%- for post in collections.post | reverse -%}
+  <li>
+    <a class="listLink" href="{{ post.url | url }}">
+      <h2>
+        {{ post.data.title }}
+      </h2>
+      <span class="listMeta">{{ post.date | readableDate }}</span>
+    </a>
+  </li>
+  {%- endfor -%}
+</ol>
