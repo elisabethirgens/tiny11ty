@@ -1,0 +1,30 @@
+/* Scaffolding for the page layout */
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.siteHeader {
+  background-color: var(--bgDark);
+  color: var(--textLight);
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.siteContent {
+  flex: 1;
+  margin: 1rem 0 2rem 0;
+}
+
+.siteFooter {
+  background-color: var(--bgDark);
+  color: var(--textLight);
+  padding: 1rem 0;
+}
+
+.responsiveContentWrapper {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

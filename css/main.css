@@ -1,0 +1,55 @@
+@import "base.css"; /* Reset and base styles of unclassed html elements */
+@import "layout.css"; /* Scaffolding for the page layout */
+
+/* CSS custom properties (variables) */
+:root {
+  --bgLight: #eee;
+  --bgDark: #222;
+  --textLight: #fff;
+  --textDark: #333;
+  --link: #0867ba;
+  --variableFontBold: 666;
+}
+
+.blogTitle > a {
+  color: #43c28d;
+}
+
+.blogTitle > a:hover {
+  color: var(--textLight);
+}
+
+.txt {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.txtHeader {
+  margin-bottom: 2rem;
+}
+
+.txtTitle {
+  font-size: 2rem;
+  font-weight: var(--variableFontBold);
+  line-height: 1;
+  border-bottom: 6px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.list {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+a.listLink {
+  color: var(--text);
+  line-height: 1;
+  display: block;
+  padding: 1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+a.listLink:hover {
+  background-color: var(--bgLight);
+}
