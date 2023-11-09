@@ -1,4 +1,4 @@
-# A minimal Eleventy blog
+# A minimalist Eleventy starter project 🌱
 
 - Eleventy is a static site generator
 - https://www.npmjs.com/package/@11ty/eleventy
