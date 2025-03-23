@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "author": "elisabethirgens",
   "description": "A minimal Eleventy starter project",
+  "type": "module",
   "scripts": {
     "start": "npx @11ty/eleventy --serve --watch",
     "build": "rm -rf ./_site && npx @11ty/eleventy --pathprefix=tiny11ty"
