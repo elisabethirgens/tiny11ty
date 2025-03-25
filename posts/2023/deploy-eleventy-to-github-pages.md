@@ -1,7 +1,6 @@
 ---
 title: Deploy Eleventy to GitHub Pages
 date: 2023-11-09
-layout: post.njk
 author: Elisabeth
 ---
 

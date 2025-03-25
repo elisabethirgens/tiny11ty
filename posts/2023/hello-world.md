@@ -1,7 +1,6 @@
 ---
 title: Hello World with Eleventy
 date: 2023-11-07
-layout: post.njk
 author: Elisabeth
 ---
 

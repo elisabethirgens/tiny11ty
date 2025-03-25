@@ -1,4 +1,5 @@
 {
   "permalink": "/{{ page.date | date: '%Y'}}/{{ page.fileSlug }}/",
-  "tags": "post"
+  "tags": "post",
+  "layout": "post.liquid"
 }

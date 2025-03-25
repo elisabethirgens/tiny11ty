@@ -1,9 +1,9 @@
 ---
-layout: main.njk
+layout: main.liquid
 ---
 
 <ol class="list">
-  {%- for post in collections.post | reverse -%}
+  {%- for post in collections.post reversed -%}
   <li>
     <a class="listLink" href="{{ post.url | url }}">
       <h2>
